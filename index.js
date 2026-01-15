@@ -98,3 +98,7 @@ app.put('/completed',function(req,res){
 
 })
 
+app.delete('/record',function(req,res){
+
+})
+

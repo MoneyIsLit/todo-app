@@ -10,12 +10,12 @@
 const mongoose = require("mongoose");
 
 //mongodb+srv://ahmadnabhan552_db_user:Nabhan%405868@cluster0.bn9wltx.mongodb.net/
-mongoose.connect("mongodb+srv://ahmadnabhan552_db_user:Nabhan%405868@cluster0.bn9wltx.mongodb.net/database")
+mongoose.connect("mongodb+srv://ahmadnabhan552_db_user:Nabhan%405868@cluster0.bn9wltx.mongodb.net/todos")
 
 const todoSchema = mongoose.Schema({
     title: String,
     description: String,
-    completed : boolean,
+    completed : Boolean,
 
 })
 
